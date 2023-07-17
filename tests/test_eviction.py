@@ -7,7 +7,7 @@ from shutil import rmtree
 from typing import Tuple
 
 import pytest
-from torch.utils.data import DataLoader
+from paddle.io import DataLoader
 
 from streaming import MDSWriter, StreamingDataset
 

@@ -3,7 +3,7 @@
 
 """Information about nodes, ranks, and workers."""
 
-from torch.utils.data import get_worker_info
+from paddle.io import get_worker_info
 
 from streaming.base import distributed as dist
 

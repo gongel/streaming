@@ -6,7 +6,7 @@ import shutil
 from typing import Any, Tuple
 
 import pytest
-from torch.utils.data import DataLoader
+from paddle.io import DataLoader
 
 from streaming.base import StreamingDataLoader, StreamingDataset
 from tests.common.datasets import SequenceDataset, write_mds_dataset

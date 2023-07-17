@@ -5,9 +5,9 @@
 
 from typing import Any, Dict, Iterator, Optional
 
-from torch import Tensor
-from torch.utils.data import DataLoader
-from transformers.tokenization_utils_base import BatchEncoding
+from paddle import Tensor
+from paddle.io import DataLoader
+from paddlenlp.transformers.tokenizer_utils_base import BatchEncoding
 
 from streaming.base.dataset import StreamingDataset
 from streaming.base.world import World

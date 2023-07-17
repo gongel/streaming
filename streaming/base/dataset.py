@@ -16,8 +16,8 @@ from typing import Any, Dict, Iterator, Optional, Sequence, Tuple, Union
 import numpy as np
 from filelock import FileLock
 from numpy.typing import NDArray
-from torch import distributed as dist
-from torch.utils.data import IterableDataset
+from paddle import distributed as dist
+from paddle.io import IterableDataset
 
 from streaming.base.array import Array
 from streaming.base.constant import (BARRIER, BARRIER_FILELOCK, CACHE_FILELOCK, CACHE_USAGE,

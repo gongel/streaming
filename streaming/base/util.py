@@ -8,7 +8,7 @@ from multiprocessing.shared_memory import SharedMemory as BuiltinSharedMemory
 from time import sleep, time
 from typing import List
 
-import torch.distributed as dist
+import paddle.distributed as dist
 
 from streaming.base.constant import SHM_TO_CLEAN
 from streaming.base.distributed import get_local_rank, maybe_init_dist
